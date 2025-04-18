@@ -1,10 +1,11 @@
 {
   "schemaVersion": 1,
-  "name": "Meteor Client",
-  "id": "meteor-client",
+  "name": "Meteor Client NoBreak",
+  "id": "meteor-client-nobreak",
   "version": "${version}",
   "description": "Based utility mod.",
   "authors": [
+    "SYSTEM_ERR",
     "MineGame159",
     "squidoodly",
     "seasnail"
@@ -51,11 +52,6 @@
     "fabricloader": ">=${loader_version}"
   },
   "breaks": {
-    "optifabric": "*",
-    "feather": "*",
-    "origins": "*",
-    "wurst": "*",
-    "sodium": "<0.6.12",
-    "morechathistory": "*"
+
   }
 }
